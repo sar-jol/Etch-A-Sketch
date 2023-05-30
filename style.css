@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    border: 1px solid #ddd;
+  }
+
+  .cell {
+    flex-basis: calc(100% / 16);
+    width: calc(100% / 16);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+  }
